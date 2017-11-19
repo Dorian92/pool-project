@@ -1,0 +1,312 @@
+/************************      GENERAL     **********************/
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body {
+    padding:0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Playfair Display';
+}
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    color: white; 
+    cursor: pointer;
+}
+.glyphicon-chevron-up {
+    font-size: 60px;
+    color: #42464f;
+}
+.glyphicon-chevron-up:hover {
+    color: #88857c;
+}
+.item {
+    height: auto
+}
+
+/************************      HEADER     **********************/
+.header-logo-img {
+  width: 200px;
+}
+
+.header-logo-text:hover {
+  text-decoration: none;
+  color:  #42b773;
+}
+.header-logo-text-weight {
+  font-weight: 400;
+}
+
+
+/************************      NAVIGATION     **********************/
+.icon-bar {
+    background-color: #ffffff;
+}
+.navbar-toggle {
+  cursor: pointer;
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding-top: 40px;
+}
+ .nav>li>a {
+  color: #c1c1c1;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Allerta', sans-serif;
+ }
+ .nav>li>a:focus,
+ .nav>li>a:hover {
+  background: none;
+  color: #42b773;
+  transition: ease 1s;
+ }
+ .navbar-collapse{
+  border-top:0px;
+  -webkit-box-shadow:none;
+          box-shadow:none;
+}
+/************************      CAROUSEL     **********************/
+
+.carousel-caption {
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: 'Playfair Display';
+  color: #c1c1c1;
+  padding: 0px !important;
+}
+.carousel-caption h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 50px;
+} 
+.carousel-caption h4 {
+  font-size: 20px;
+}
+.carousel-caption h5 {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+
+/************************      ABOUT     **********************/ 
+
+#about {
+    background-color: #42b773;
+ 
+}
+.about-title {
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.about-text {
+    color: #ffffff;
+    padding-bottom: 45px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+}
+.about-text-title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+}
+.about-text-title:hover {
+    text-decoration: none;
+    color: black;
+    transition: ease 1s;
+}
+.col-sm-4-center {
+  text-align: center;
+}
+.img-nesto {
+  width: 330px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+/************************      SERVICES     **********************/
+
+#services {
+    background-color: #f4f4f5;
+
+}
+.services-title {
+    text-align: center;
+    color: #42464f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    line-height: 1.4;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.fa-a > .fa-lg {
+    font-size: 45px;
+    color: #42b773;
+    margin-bottom: 20px;
+}
+.col-sm-3-center {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.service-title-p {
+  margin-bottom: 20px;
+}
+.service-text-title {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #42464f;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+.service__text-title:hover {
+    color: #42b773;
+    transition: ease 1s;
+}
+.services-img {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.service__text {
+    font-family: Ubuntu, sans-serif;
+    color: #658997;
+    font-size: 14px;
+}
+
+/************************      GALLERY     **********************/
+.gallery-title {
+    margin-top: 60px;
+    color: #42464f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.img-thumbnail {
+  height: 200px;
+}
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/************************      CONTACTS     **********************/
+
+.contacts {
+    background: url(../Images/cg.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.white {
+    height: 70px;
+    background-color: white;
+}
+.social-media {
+    background-color: #42b773;
+}
+.social-media_list {
+    text-align: center;
+    list-style: none;
+}
+.social-media-item {
+    display: inline-block;
+    padding: 10px 0;
+}
+.social-media-link {
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 50px;
+    height: 47px;
+    font-size: 23px;
+    line-height: 47px;
+}
+.social-media-link:hover {
+    background-color: #a9dc56;
+    color: #ffffff;
+}
+.contacts-title {
+    text-align: center;
+    color: #42464f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    line-height: 1.4;
+    font-weight: bold;
+    padding-top: 70px;
+}
+.contact-text {
+    text-align: center;
+    font-size: 20px;
+}
+.contact-text-sm {
+    font-family: 'Ubuntu', sans-serif;
+    color: #658997;
+    font-size: 13px;
+}
+.contact-number {
+    color: #42b773; 
+    margin-right: 10px;
+    font-size: 28px;
+}
+.contact-number:hover {
+    color: black;
+    text-decoration: none;
+}
+.contact-text > .fa {
+    color: #42b773; 
+}
+/************************      FOOTER     **********************/
+
+
+.footer-text {
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    color: #658997;
+    font-size: 11px;
+    text-align: center;
+}
+.footer-text-first {
+  padding-top: 30px;
+}
+.footer-text-second {
+  padding-top: 10px;
+}
